@@ -10,7 +10,7 @@ class App < Sinatra::Base
     "Brooklyn"
   end
 
-  get 'favorite-song' do
+  get '/favorite-song' do
     "DNA by Kendrick Lamar"
   end
 end
